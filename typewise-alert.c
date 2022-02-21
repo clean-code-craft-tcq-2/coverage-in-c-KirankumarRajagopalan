@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
+#include "alertConfigParameters.h"
 
 bool validateEnumValue(int enumValue, int maxPossibleValue)
 {
