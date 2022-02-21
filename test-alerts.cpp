@@ -2,7 +2,7 @@
 
 #include "test/catch.hpp"
 #include "typewise-alert.h"
-
+#include "alertConfigParameters.h"
 
 TEST_CASE("ValidateEnumValue - Passing enum value satisfying the range - Positive use case ") {
   bool validateStatus = validateEnumValue (2,3);
