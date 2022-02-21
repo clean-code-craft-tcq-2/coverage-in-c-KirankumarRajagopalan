@@ -1,8 +1,9 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 
 #include "test/catch.hpp"
-#include "typewise-alert.h"
 #include "alertConfigParameters.h"
+#include "typewise-alert.h"
+
 
 TEST_CASE("ValidateEnumValue - Passing enum value satisfying the range - Positive use case ") {
   bool validateStatus = validateEnumValue (2,3);
